@@ -244,7 +244,7 @@ REPOSITORY                  TAG         IMAGE ID      CREATED       SIZE
 quay.io/ansible/creator-ee  v0.4.2      12571ac947cf  3 months ago  2.4 GB
 ```
 
-## Step 7
+### Step 7
 
 When done, exit out of the running container. Log in at a later time (if the
 container is still running). Remove the container, redeploy the container. Do
