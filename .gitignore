@@ -1,0 +1,8 @@
+workspace-env/containers/*
+!workspace-env/containers/.gitkeep
+
+ansible-playbook-artifacts/*
+!ansible-playbook-artifacts/.gitkeep
+
+ansible-runner-artifacts/*
+!ansible-runner-artifacts/.gitkeep

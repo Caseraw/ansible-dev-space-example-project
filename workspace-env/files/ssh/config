@@ -1,0 +1,4 @@
+Host *.special-dummy-domain.awesome.tld
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  IdentityFile ~/.ssh/id_rsa
