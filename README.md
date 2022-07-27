@@ -107,10 +107,10 @@ $ tree . -L 4 --dirsfirst
 
 Have a look at the [Containerfile](workspace-env/containerfiles/Containerfile).
 The base image is derived from the original [podman
-image](quay.io/podman/stable:latest). On top of that image, several RPM packages
-as well as python packages are installed and set up for use with the `podman`
-user. Apply your own changes as much as you'd like. *Keep in mind that it's
-originally based on the podman image*.
+image](https://quay.io/podman/stable:latest). On top of that image, several RPM
+packages as well as python packages are installed and set up for use with the
+`podman` user. Apply your own changes as much as you'd like. *Keep in mind that
+it's originally based on the podman image*.
 
 * Build the container image using `podman`:
 
@@ -263,7 +263,7 @@ the the container.
 
 Yes there is more!
 
-## Rootless, rootful and privileged containers
+## Rootless, rootfull and privileged containers
 
 The general principle is not to run privileged containers. Although there are
 times when it's pretty handy to be able to run a privileged container. Think of
