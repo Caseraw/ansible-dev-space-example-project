@@ -289,3 +289,7 @@ podman run -d --rm \
 localhost/ansible-dev-space-example-image:lab01 \
 sleep infinity
 ```
+
+# Resources
+
+- https://access.redhat.com/solutions/6161832
