@@ -34,7 +34,7 @@ other purposes than Ansible.
   [podman.io](https://podman.io/getting-started/installation) without issues.
 - Make sure to have [podman.io](https://podman.io/) installed on the host.
 
-> This setup is tried and tested on Fedora 35 and RHEL 8. *Not tested on MacOS
+> This setup is tried and tested on Fedora 35. *Not tested on MacOS
 > and Windows systems*.
 
 # Usage
