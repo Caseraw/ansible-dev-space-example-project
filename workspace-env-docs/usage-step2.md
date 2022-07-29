@@ -18,7 +18,7 @@ Everything can be customized once you get familiar with the setup.
 |--------|-------------|
 | 1 | The actual workspace your project files will reside in. What you'll be working on, on your host machine with VScode or another IDE you work with. |
 | 2 | The directory that contains files used for your container image and container. |
-| 3 | The directory that contains the conatiner files, used to build container images. |
+| 3 | The directory that contains the container files, used to build container images. |
 | 4 | The directory that can contain cache container images, mapped for use within the container. *More about this in the next steps*. |
 | 5 | The directory that can contain files to customize a running container, mapped for use within the container. *More about this in the next steps*. |
 | 6 | The directory that contains docs and additional docs resources. |
