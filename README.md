@@ -46,5 +46,5 @@ other purposes than Ansible.
 - [Step 5](workspace-env-docs/usage-step5.md) - Enter the container via an interactive shell.
 - [Step 6](workspace-env-docs/usage-step6.md) - Work on your project.
 - [Step 7](workspace-env-docs/usage-step7.md) - When done, exit out.
-- [Troubleshoot section](troubleshoot.md)
-- [Advanced section](advanced.md)
+- [Troubleshoot section](workspace-env-docs/troubleshoot.md)
+- [Advanced section](workspace-env-docs/advanced.md)
