@@ -19,6 +19,8 @@ alternative to what is shown in [step 4](#step-4):
 podman run -d --rm \
 --name podman-ansible-dev-space-example \
 --privileged \
+--security-opt label=disable \
+--security-opt unmask=ALL \
 --userns=keep-id \
 --user podman \
 -v ./workspace-env/containers:/home/podman/.local/share/containers:Z \

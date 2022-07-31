@@ -5,6 +5,8 @@ Run a container with `podman` using the image:
 ```shell
 podman run -d --rm \
 --name podman-ansible-dev-space-example \
+--security-opt label=disable \
+--security-opt unmask=ALL \
 --userns=keep-id \
 --user podman \
 -v ./workspace-env/containers:/home/podman/.local/share/containers:Z \
